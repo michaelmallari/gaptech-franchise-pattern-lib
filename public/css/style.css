@@ -1,0 +1,151 @@
+/*
+
+Leading:
+PMS 7460 U (blue)			#008CC2 
+White 						#ffffff
+PMS Cool Gray 8 U 			#939598
+
+
+Supporting:
+PMS 638 U (blue)			#25b7e0
+PMS 158 U (orange)			#f57e4d
+
+
+Pop:
+PMS 130 U (orange)			#fc9a2d
+PMS 675 U (plum)			#c1618d
+PMS 7677 U (violet)			#7f6c94
+PMS 660 U (blue)			#648ac7
+
+*/
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/fonts/glyphicons-halflings-regular.eot');
+  src: url('/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+@font-face {
+  font-family: 'Mono Social Icons Font';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/MonoSocialIconsFont-1.10.eot');
+  src: url('/fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'), url('/fonts/MonoSocialIconsFont-1.10.woff') format('woff'), url('/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'), url('/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+  src: url('/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+}
+.social-icon {
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #f2f2f2;
+  /* PMS Cool Gray 8 U @12% */
+}
+#page-container {
+  height: 100%;
+  width: 100%;
+}
+#nav-primary {
+  background: #008CC2;
+  min-height: 72px;
+}
+#nav-primary .logo {
+  float: left;
+  height: 48px;
+  margin-top: 12px;
+  width: auto;
+}
+#nav-primary .app-name {
+  color: #fff;
+  display: inline;
+  float: left;
+  font-size: 1.33em;
+  line-height: 72px;
+  padding: 0em 3.5em 0em 1em;
+}
+#nav-secondary {
+  background: #25b7e0;
+  min-height: 72px;
+}
+#nav-secondary .extra-info-1 {
+  color: #fff;
+  display: inline;
+  float: left;
+  font-size: 1.33em;
+  font-weight: 300;
+  line-height: 72px;
+}
+#nav-primary ul,
+#nav-secondary ul {
+  display: inline;
+  float: right;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#nav-primary ul {
+  float: left;
+}
+#nav-primary li,
+#nav-secondary li {
+  display: inline-block;
+  height: 72px;
+  line-height: 72px;
+  margin: 0px;
+  padding: 0px;
+}
+#nav-primary li.nav-current {
+  background: url('/img/nav-primary-current.png') center bottom no-repeat;
+  background-size: auto 12px;
+}
+#nav-primary li a,
+#nav-secondary li a {
+  color: #f2f2f2;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0em 1.33em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#nav-primary li a:hover,
+#nav-primary li.nav-current a {
+  color: #fc9a2d;
+}
+#nav-secondary li a:hover,
+#nav-secondary li.nav-current a {
+  color: #fdc281;
+  /* PMS 307 U... a monochromatic of PMS 638 U, the background color */
+}
+#nav-secondary li:first-child a {
+  padding-left: 0px;
+}
+#nav-secondary li:last-child a {
+  padding-right: 0px;
+}
+#header .container {
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 1200px) {
+  #header .container {
+    max-width: 1200px;
+    width: 84%;
+  }
+}
+* {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
